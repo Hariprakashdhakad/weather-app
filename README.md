@@ -30,6 +30,11 @@ Click on the "Submit" button to fetch the weather data for the entered location.
 View Weather:
 
 Once the weather data is fetched, you will see the current weather conditions displayed on the screen.
+
+
+#Output:
+![Screenshot (229)](https://github.com/Hariprakashdhakad/weather-app/assets/93878590/86e767b3-8825-434d-a8f0-8952d2ad2356)
+
 Technologies Used:
 HTML: Markup language for structuring the web page.
 CSS: Styling language for enhancing the visual presentation.
