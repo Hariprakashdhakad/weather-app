@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter location" spellcheck="false" />
+        <button type="submit"><img src="./images/search.png" /></button>
+      </div>
+      <div class="error">
+        <p>City not Found</p>
+      </div>
+      <div class="weather">
+        <img src="images/rain.png" class="weather-icon" />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Bangalore</h2>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <p class="wind">15km/hr</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="daysforecast">
+        <h1>5-Day Weather Forecast</h1>
+        <hr />
+        <div class="days">
+          <div class="day">
+            <p>Today</p>
+            <p class="temp">15°C</p>
+            <p>Wind Speed</p>
+            <p class="wind">15km/hr</p>
+            <p>Humidity</p>
+            <p class="humidity">50%</p>
+          </div>
+
+          <div class="day">
+            <p>Tomorrow</p>
+            <p class="temp">15°C</p>
+            <p>Wind Speed</p>
+            <p class="wind">15km/hr</p>
+            <p>Humidity</p>
+            <p class="humidity">50%</p>
+          </div>
+
+          <div class="day">
+            <p id="day3">Day 3</p>
+            <p class="temp">15°C</p>
+            <p>Wind Speed</p>
+            <p class="wind">15km/hr</p>
+            <p>Humidity</p>
+            <p class="humidity">50%</p>
+          </div>
+          <div class="day">
+            <p id="day4">Day 4</p>
+            <p class="temp">15°C</p>
+            <p>Wind Speed</p>
+            <p class="wind">15km/hr</p>
+            <p>Humidity</p>
+            <p class="humidity">50%</p>
+          </div>
+
+          <div class="day">
+            <p id="day5">Day 5</p>
+            <p class="temp">15°C</p>
+            <p>Wind Speed</p>
+            <p class="wind">15km/hr</p>
+            <p>Humidity</p>
+            <p class="humidity">50%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
